@@ -32,7 +32,7 @@ function App() {
         <Row gutter={[16, 16]}>
           {data.map(item =>
             <Col xl={6} md={12} key={data.indexOf(item)}>
-              <Card extra={<Link to={`/post/${item.id}`}>More</Link>} title={item.title} xl={6} style={{ minWidth: 300, height: '230px' }}>
+              <Card extra={<Link to={`/sert/post/${item.id}`}>More</Link>} title={item.title} xl={6} style={{ minWidth: 300, height: '230px' }}>
                 {item.body}
               </Card>
             </Col>
