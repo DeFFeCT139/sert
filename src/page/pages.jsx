@@ -10,12 +10,12 @@ function Pages() {
 
     const router = createBrowserRouter([
         {
-          path: "/deffect139.github.io/sert/",
+          path: "/sert/",
           element: <App />,
           errorElement: <ErrorPage/>
         },
         {
-          path: "/deffect139.github.io/sert/post/:id",
+          path: "/sert/post/:id",
           element: <Post/>,
         },
     ]);
