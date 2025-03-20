@@ -2,7 +2,7 @@
   "name": "sert",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://deffect139.github.io/",
+  "homepage": "https://deffect139.github.io/sert/",
   "dependencies": {
     "@ant-design/icons": "^5.6.1",
     "@ant-design/v5-patch-for-react-19": "^1.0.3",
