@@ -1,13 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import './css/style.css'
 import reportWebVitals from './reportWebVitals';
+import 'antd/dist/antd'
+import { QueryClient, QueryClientProvider } from 'react-query';
+import ErrorPage from './page/errorPage';
+import Pages from './page/pages';
+
+const queryClient = new QueryClient
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <QueryClientProvider client={queryClient}>
+      <Pages/>
+    </QueryClientProvider>
   </React.StrictMode>
 );
 
